@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
   aboutMe = "this is about me";
-  onClickMe() {
-    this.dynamicContent = aboutMe;
+  whatIAmPassionateAbout = "these are my interests";
+  howIGoAboutCoding = "this is how I go about coding";
+  dynamicContent = "";
+
+  aboutMeClick() {
+    this.dynamicContent = this.aboutMe;
   }
+
+  passionateAboutClick() {
+    this.dynamicContent = this.whatIAmPassionateAbout;
+  }
+
+  goAboutCoding() {
+    this.dynamicContent = this.howIGoAboutCoding;
+  }
+
   constructor() { }
 
   ngOnInit() {

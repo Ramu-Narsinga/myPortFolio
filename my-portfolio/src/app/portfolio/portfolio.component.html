@@ -1,14 +1,14 @@
 <div class="container">
 <div class="row">
   <div class="col-sm-3 col-md-4">
-<button class="foo-button mdc-button">About Me</button>
+<button class="foo-button mdc-button" (click)="aboutMeClick()">About Me</button>
 <br>
-<button class="foo-button mdc-button">What I Am Passionate About</button>
+<button class="foo-button mdc-button" (click)="passionateAboutClick()">What I Am Passionate About</button>
 <br>
-<button class="foo-button mdc-button">How I go About Coding</button>
+<button class="foo-button mdc-button" (click)="goAboutCoding()">How I go About Coding</button>
 </div>
 <div class="col-sm-9 col-md-8 display-dynamic-data">
-  <p (click)="onClickMe()">here is the dynamic content
+  <p>here is the dynamic content
   {{dynamicContent}}</p>
 </div>
 </div>

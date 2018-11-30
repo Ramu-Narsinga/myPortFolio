@@ -1,0 +1,22 @@
+.page-footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:25%;
+  width:100%;
+  /* background:#999; */
+}
+
+/* //search button css */
+.btn-outline-success {
+  color: black;
+  border-color: black;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #8a00e6;
+ }
+
+.navbar-light .navbar-brand { 
+   color: #8a00e6;
+  }
